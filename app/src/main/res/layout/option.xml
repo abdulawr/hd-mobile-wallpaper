@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="16sp"
+        android:id="@+id/loading"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent"
+        android:text="Please wait while is setting.."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn_back"
+        android:text="Home Screen"
+        android:textAllCaps="false"
+        android:id="@+id/home"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn_back"
+        android:text="Lock Screen"
+        android:textAllCaps="false"
+        android:id="@+id/lock"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn_back"
+        android:text="Both"
+        android:textAllCaps="false"
+        android:id="@+id/both"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"/>
+
+</LinearLayout>

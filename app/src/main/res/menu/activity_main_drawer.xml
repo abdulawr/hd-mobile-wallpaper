@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/favourite"
+            android:title="Favourite" />
+
+
+        <item
+            android:id="@+id/clearcache"
+            android:icon="@drawable/clear_cache"
+            android:title="Clear app cache" />
+
+        <item
+            android:id="@+id/clearwallpaper"
+            android:icon="@drawable/clear_wallppaer"
+            android:title="Clear Wallpaper" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share_icon"
+            android:title="Share It" />
+
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/rateus"
+            android:title="Rate US" />
+
+        <item
+            android:id="@+id/moreapps"
+            android:icon="@drawable/moreapps"
+            android:title="More App" />
+
+    </group>
+</menu>
